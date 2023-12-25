@@ -1,1 +1,1 @@
-from .myscript import my_function
+from .addition_func import addition
