@@ -1,4 +1,5 @@
 # global_variable_advanced.py
+import pandas as pd
 
 class GlobalVariables:
     def __init__(self):
