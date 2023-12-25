@@ -8,33 +8,33 @@ class GlobalVariables:
         self.value1 = None
         self.advanced_variable = None
 
-    def run_all_functions():
+    def run_all_functions(self):
         global all_globals
         # Call all functions and update global variables
-        function1()
-        function2()
-        function3()
-        function4()
+        self.function1()
+        self.function2()
+        self.function3()
+        self.function4()
         print('finished')
 
-    def function1():
+    def function1(self):
         # Update global variables in function1
         global all_globals
-        all_globals.dataset1 = [1, 2, 3, 4, 5]
+        self.dataset1 = [1, 2, 3, 4, 5]
 
-    def function2():
+    def function2(self):
         # Update global variables in function2
         global all_globals
-        all_globals.column_name = 'example_column'
+        self.column_name = 'example_column'
 
-    def function3():
+    def function3(self):
         # Update global variables in function3
         global all_globals
-        all_globals.value1 = 42
+        self.value1 = 42
 
-    def function4():
+    def function4(self):
         # Update global variables in function4 (create a Pandas DataFrame)
         global all_globals
         data = {'A': [1, 2, 3], 'B': [4, 5, 6]}
-        all_globals.advanced_variable = pd.DataFrame(data)
+        self.advanced_variable = pd.DataFrame(data)
 
