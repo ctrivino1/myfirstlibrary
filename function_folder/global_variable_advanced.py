@@ -38,5 +38,3 @@ class GlobalVariables:
         data = {'A': [1, 2, 3], 'B': [4, 5, 6]}
         all_globals.advanced_variable = pd.DataFrame(data)
 
-# Initialize the global variables object
-all_globals = GlobalVariables()
