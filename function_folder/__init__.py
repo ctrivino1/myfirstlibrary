@@ -1,1 +1,2 @@
-from .addition_func import addition
+from .addition_func import *
+from .global_variable_advanced import *
